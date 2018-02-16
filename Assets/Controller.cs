@@ -20,6 +20,7 @@ public class Controller : MonoBehaviour {
 		{
 			score++;
 			Destroy(col.gameObject);
+			Debug.Log(score);
 		}
 	}
 
